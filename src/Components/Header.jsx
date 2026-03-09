@@ -10,10 +10,10 @@ const Header = () => {
 
   const location = useLocation();
   
-useEffect(() => {
-  const timer = setInterval(nextSlide, 5000);
-  return () => clearInterval(timer);
-}, [nextSlide]);
+// useEffect(() => {
+//   const timer = setInterval(nextSlide, 5000);
+//   return () => clearInterval(timer);
+// }, [nextSlide]);
 
   useEffect(() => {
     const handleScroll = () => {
