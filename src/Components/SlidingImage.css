@@ -1,0 +1,102 @@
+/* .slides{width: 100%; */
+/* height: 100%;} */
+/* .slides img{height: 100%; */
+/* width: 100%; */
+/* object-fit: cover;} */
+/* .img_overlay{ */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* text-align: center; */
+    /* width: 100%; */
+    /* z-index: 11 ; */
+    /* color: #fff; */
+    /* font-weight: 600; */
+/* } */
+
+/* .img_overlay p{font-size: 2.5rem;} */
+/* .img_overlay h2{font-size: 4.5rem; */
+    /* color:#2ecc71; */
+    /* letter-spacing: 5px; */
+/* } */
+/* .img_overlay h3{font-size: 3.5rem; */
+    
+    /* letter-spacing: 5px; */
+/* } */
+
+
+/* .slides::before{ */
+    /* content: ""; */
+    /* position: absolute; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-color:rgb(0,0,0,0.6); */
+    /* z-index: 9; */
+/* } */
+/* .img_overlay a{ */
+    /* text-decoration: none; */
+    /* font-size: 20px; */
+    /* font-weight: 600; */
+    /* padding: 0.8rem 2rem; */
+    /* color:#fff; */
+    /* display: inline-block; */
+    /* margin-top: 2px; */
+    /* border-radius: 4px; */
+    /* background-color:#2ecc71; */
+    /* transition: all 0.3s  ease-in-out; */
+/* } */
+
+/* .img_overlay a:hover{ */
+    /* color:#fff; */
+    /* background-color: #239b56; */
+/* } */
+/* .btn{background-color: rgba(0,0,0,0.6); */
+/* padding: 2rem; */
+/* color: #fff; */
+/* border-radius: 50%;} */
+/* .btn::after{ */
+    /* color: #fff; */
+/* } */
+/* .swiper-button-next {margin-right: 50px;} */
+/* .swiper-button-prev{margin-left: 50px;} */
+.sliding-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.sliding-image-wrapper {
+  display: flex;
+  gap: 20px; /* Adjust the gap size between the images */
+}
+
+.sliding-image {
+  width: 35%;
+  height: auto;
+  object-fit: cover;.sliding-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.sliding-image-wrapper {
+  display: flex;
+  gap: 20px; /* Adjust the gap size between the images */
+}
+
+.sliding-image {
+  width: 30%; /* Set the width to 100px */
+  height: auto; /* Set the height to 100px */
+  object-fit: cover;
+  border: 2px solid #000; /* Add a border to the images */
+}
+
+.sliding-image-button {
+  font-size: 24px;
+  padding: 5px 10px;
+}
+}
+
+.sliding-image-button {
+  font-size: 24px;
+  padding: 5px 10px;
+}
