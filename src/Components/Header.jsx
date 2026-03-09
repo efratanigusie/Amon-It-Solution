@@ -9,7 +9,11 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const location = useLocation();
-  const navigate = useNavigate();
+  
+useEffect(() => {
+  const timer = setInterval(nextSlide, 5000);
+  return () => clearInterval(timer);
+}, [nextSlide]);
 
   useEffect(() => {
     const handleScroll = () => {

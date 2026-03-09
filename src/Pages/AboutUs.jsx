@@ -99,7 +99,7 @@ export default function AboutUs() {
 
       <div className="my-[4rem] mx-[4rem]">
         <h1 className="text-3xl text-blueBlack text-center font-bold my-[2rem]">AMON at a Glance</h1>
-        <h1 className="text-1xl font-bold text-orange-500 mb-[1rem]"></h1>
+        {/* <h1 className="text-1xl font-bold text-orange-500 mb-[1rem]"></h1> */}
         <div className="flex flex-wrap justify-evenly align-evenly">
           
           <div className=" flex flex-col items-center w-[20rem] mb-[2rem]">

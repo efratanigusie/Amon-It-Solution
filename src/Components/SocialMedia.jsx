@@ -15,7 +15,7 @@ const SocialMediaLink = () => {
       </h1>
       <div className="flex flex-wrap justify-start">
         <div className="px-[1rem] bg-facebookblue ml-[2rem] rounded-[5px]">
-          <a href="/">
+          <a href="https://facebook.com">
             <span className="bg-facebookblue">
               <FontAwesomeIcon icon={faFacebook} />
             </span>
