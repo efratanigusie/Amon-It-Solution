@@ -23,7 +23,7 @@ const SocialMediaLink = () => {
           </a>
         </div>
         <div className="px-[1rem] bg-linkedinblue ml-[2rem] rounded-[5px]">
-          <a href="#">
+          <a href="https://linkedin.com">
             <span className="bg-linkedinblue">
               <FontAwesomeIcon icon={faLinkedin} />
             </span>
@@ -31,7 +31,7 @@ const SocialMediaLink = () => {
           </a>
         </div>
         <div className="px-[1rem] bg-twitterblue ml-[2rem] rounded-[5px]">
-          <a href="/">
+          <a href="https://twitter.com">
             <span>
               <FontAwesomeIcon icon={faTwitter} />
             </span>
@@ -39,7 +39,7 @@ const SocialMediaLink = () => {
           </a>
         </div>
         <div className="px-[1rem] bg-telegramblue ml-[2rem] rounded-[5px]">
-          <a href="/">
+          <a href="https://telegram.org">
             <span>
               <FontAwesomeIcon icon={faTelegram} />
             </span>

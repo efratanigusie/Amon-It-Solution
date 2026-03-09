@@ -4,7 +4,6 @@ import ImageSliderAuto from "../Components/ImageSliderAuto";
 import {motion} from 'framer-motion'
 import Footer from "../Components/Footer";
 import SocialMediaLink from "../Components/SocialMedia";
-import BrandSlider from "../Components/PartnerSlide";
 import ClientSlider from "../Components/ClientSlide";
 
 export default function Services() {

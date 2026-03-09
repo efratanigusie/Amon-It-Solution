@@ -6,7 +6,6 @@ import MessageForm from "../Components/MessageForm";
 import SocialMediaLink from "../Components/SocialMedia";
 import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
-import BrandSlider from "../Components/PartnerSlide";
 import PartnerSlider from "../Components/PartnerSlide";
 export default function Home() {
   const slides = [
